@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fourth_project/src/screens/chat/chat_screen.dart';
 import 'package:flutter_fourth_project/src/screens/home/home_screen.dart';
 
 void main() {
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      // home: const HomeScreen(),
+      home: const ChatScreen(),
     );
   }
 }
