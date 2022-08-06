@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fourth_project/src/screens/chat/chat_screen.dart';
-import 'package:flutter_fourth_project/src/screens/home/home_screen.dart';
 import 'package:flutter_fourth_project/src/screens/product/product_screen.dart';
 
 void main() {
