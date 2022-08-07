@@ -25,7 +25,7 @@ class ProductScreen extends StatelessWidget {
                       const BackButton(),
                       IconButton(
                         onPressed: () {
-                          debugPrint("test");
+                          debugPrint('test');
                         },
                         icon: const Icon(
                           Icons.more_horiz,
@@ -49,7 +49,7 @@ class ProductScreen extends StatelessWidget {
                   ),
                   alignment: Alignment.center,
                   child: const Text(
-                    "Asus",
+                    'Asus',
                     style: TextStyle(
                       fontSize: 16,
                       color: Colors.white,
@@ -64,7 +64,7 @@ class ProductScreen extends StatelessWidget {
 
                 //badges
                 BadgeItem(
-                  badgeText: "Top Seller",
+                  badgeText: 'Top Seller',
                   badgeIcon: Icons.local_fire_department_outlined,
                   badgeColor: Colors.orange.shade100,
                   badgeFontColor: Colors.orange.shade900,
@@ -76,7 +76,7 @@ class ProductScreen extends StatelessWidget {
 
                 //title
                 Text(
-                  "Asus Official Store",
+                  'Asus Official Store',
                   style: TextStyle(
                     fontWeight: FontWeight.w600,
                     color: Colors.blue[90],
@@ -96,7 +96,7 @@ class ProductScreen extends StatelessWidget {
                     children: [
                       //badges
                       BadgeItem(
-                        badgeText: "Top Seller",
+                        badgeText: 'Top Seller',
                         badgeIcon: Icons.notifications_outlined,
                         badgeColor: Colors.blue.shade900,
                         badgeFontColor: Colors.white,
@@ -106,7 +106,7 @@ class ProductScreen extends StatelessWidget {
                       ),
                       //badges
                       BadgeItem(
-                        badgeText: "Chat",
+                        badgeText: 'Chat',
                         badgeIcon: Icons.message_rounded,
                         badgeColor: Colors.blue.shade50,
                         badgeFontColor: Colors.blue.shade900,
@@ -125,19 +125,19 @@ class ProductScreen extends StatelessWidget {
                     children: const [
                       TextItem(
                         isChecked: true,
-                        itemTitle: "Products",
+                        itemTitle: 'Products',
                       ),
                       TextItem(
                         isChecked: false,
-                        itemTitle: "Newest",
+                        itemTitle: 'Newest',
                       ),
                       TextItem(
                         isChecked: false,
-                        itemTitle: "Popular",
+                        itemTitle: 'Popular',
                       ),
                       TextItem(
                         isChecked: false,
-                        itemTitle: "Category",
+                        itemTitle: 'Category',
                       ),
                     ],
                   ),
@@ -166,7 +166,7 @@ class ProductScreen extends StatelessWidget {
                           children: [
                             Expanded(
                               child:
-                                  Image.asset("assets/images/asus_laptop.png"),
+                                  Image.asset('assets/images/asus_laptop.png'),
                             ),
                             Container(
                               height: 105,
@@ -179,7 +179,7 @@ class ProductScreen extends StatelessWidget {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    "ProArt Studiobook",
+                                    'ProArt Studiobook',
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       color: Colors.blue[90],
@@ -188,7 +188,7 @@ class ProductScreen extends StatelessWidget {
                                   const SizedBox(
                                     height: 5,
                                   ),
-                                  const Text("Asus"),
+                                  const Text('Asus'),
                                   const Spacer(),
                                   SizedBox(
                                     height: 50,
@@ -196,7 +196,7 @@ class ProductScreen extends StatelessWidget {
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
                                       children: [
-                                        const Text("Asus"),
+                                        const Text('Asus'),
                                         Container(
                                           width: 30,
                                           height: 30,

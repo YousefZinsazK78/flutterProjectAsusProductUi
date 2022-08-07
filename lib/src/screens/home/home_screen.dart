@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fourth_project/src/config/strings.dart';
 import 'package:flutter_fourth_project/src/widgets/read_more_text_item.dart';
 import 'package:flutter_fourth_project/src/widgets/text_item.dart';
 
@@ -33,7 +32,7 @@ class HomeScreen extends StatelessWidget {
                             TextButton.icon(
                               onPressed: () {},
                               icon: const Icon(Icons.chat_bubble),
-                              label: const Text("Ask Seller"),
+                              label: const Text('Ask Seller'),
                               style: ButtonStyle(
                                 backgroundColor: MaterialStateProperty.all(
                                     Colors.grey.shade300),
@@ -50,7 +49,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                       //header text
                       const Text(
-                        "ProArt Studiobook",
+                        'ProArt Studiobook',
                         style: TextStyle(
                           fontSize: 30,
                           fontWeight: FontWeight.w700,
@@ -60,7 +59,7 @@ class HomeScreen extends StatelessWidget {
                         height: 10,
                       ),
                       Text(
-                        "Type: Pro 17 w700",
+                        'Type: Pro 17 w700',
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.w400,
@@ -82,7 +81,7 @@ class HomeScreen extends StatelessWidget {
                             children: [
                               Expanded(
                                 child: Image.asset(
-                                    "assets/images/asus_laptop.png"),
+                                    'assets/images/asus_laptop.png'),
                               ),
                               SizedBox(
                                 height: 70,
@@ -94,7 +93,7 @@ class HomeScreen extends StatelessWidget {
                                     return Container(
                                       margin: const EdgeInsets.all(5),
                                       child: Image.asset(
-                                          "assets/images/asus_laptop.png"),
+                                          'assets/images/asus_laptop.png'),
                                     );
                                   },
                                 ),
@@ -128,7 +127,7 @@ class HomeScreen extends StatelessWidget {
                               ),
                               alignment: Alignment.center,
                               child: const Text(
-                                "Asus",
+                                'Asus',
                                 style: TextStyle(
                                   fontSize: 17,
                                   color: Colors.white,
@@ -148,13 +147,13 @@ class HomeScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: const [
                                 Text(
-                                  "Asus Official Store",
+                                  'Asus Official Store',
                                   style: TextStyle(
                                     fontWeight: FontWeight.w600,
                                     color: Colors.black,
                                   ),
                                 ),
-                                Text("view store"),
+                                Text('view store'),
                               ],
                             ),
 
@@ -197,15 +196,15 @@ class HomeScreen extends StatelessWidget {
                                 children: const [
                                   TextItem(
                                     isChecked: true,
-                                    itemTitle: "Overview",
+                                    itemTitle: 'Overview',
                                   ),
                                   TextItem(
                                     isChecked: false,
-                                    itemTitle: "Spesification",
+                                    itemTitle: 'Spesification',
                                   ),
                                   TextItem(
                                     isChecked: false,
-                                    itemTitle: "Review",
+                                    itemTitle: 'Review',
                                   ),
                                 ],
                               ),
