@@ -22,7 +22,7 @@ class ChatProductItem extends StatelessWidget {
               borderRadius: BorderRadius.circular(12),
             ),
             child: Image.asset(
-              "assets/images/asus_laptop.png",
+              'assets/images/asus_laptop.png',
               width: 50,
               height: 50,
             ),
@@ -35,7 +35,7 @@ class ChatProductItem extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               const Text(
-                "ProArt Studiobook 17",
+                'ProArt Studiobook 17',
                 style: TextStyle(
                   fontSize: 17,
                   fontWeight: FontWeight.bold,
@@ -43,7 +43,7 @@ class ChatProductItem extends StatelessWidget {
                 ),
               ),
               Text(
-                "Type: Pro 17 W700",
+                'Type: Pro 17 W700',
                 style: TextStyle(
                   fontSize: 15,
                   color: Colors.grey.shade500,
@@ -53,7 +53,7 @@ class ChatProductItem extends StatelessWidget {
           ),
           const Spacer(),
           Text(
-            "\$2500",
+            '\$2500',
             style: TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.bold,

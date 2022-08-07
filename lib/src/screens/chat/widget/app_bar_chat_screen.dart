@@ -20,7 +20,7 @@ class AppBarChatScreen extends StatelessWidget {
             backgroundColor: Colors.blue[900],
             radius: 30,
             child: const Text(
-              "Asus",
+              'Asus',
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
@@ -36,14 +36,14 @@ class AppBarChatScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                "Asus Official Store",
+                'Asus Official Store',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 19,
                 ),
               ),
               Text(
-                "Active 5 hours ago",
+                'Active 5 hours ago',
                 style: TextStyle(
                   fontWeight: FontWeight.w500,
                   color: Colors.grey.shade300,
@@ -55,7 +55,7 @@ class AppBarChatScreen extends StatelessWidget {
           IconButton(
             onPressed: () {},
             icon: const Icon(Icons.more_horiz),
-            tooltip: "more options",
+            tooltip: 'more options',
           ),
         ],
       ),

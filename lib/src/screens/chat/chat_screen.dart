@@ -29,7 +29,7 @@ class ChatScreen extends StatelessWidget {
                     ChatMessageItem(
                       isMeChatting: true,
                       messageBody:
-                          "Hi mimin, is this laptop still have a stock? I wanna buy it 100 pcs.",
+                          'Hi mimin, is this laptop still have a stock? I wanna buy it 100 pcs.',
                     ),
                     ChatMessageItem(
                       isMeChatting: false,
@@ -38,15 +38,15 @@ class ChatScreen extends StatelessWidget {
                     ChatMessageItem(
                       isMeChatting: true,
                       messageBody:
-                          "Oh ya i see, so I buy 200 then.Thanks min:*",
+                          'Oh ya i see, so I buy 200 then.Thanks min:*',
                     ),
                     ChatMessageItem(
                       isMeChatting: true,
-                      messageBody: "Gimme bonus, ok?",
+                      messageBody: 'Gimme bonus, ok?',
                     ),
                     ChatMessageItem(
                       isMeChatting: true,
-                      messageBody: "Ok syg:*",
+                      messageBody: 'Ok syg:*',
                     ),
                   ],
                 ),
@@ -65,7 +65,7 @@ class ChatScreen extends StatelessWidget {
                     child: TextField(
                       decoration: InputDecoration(
                         border: InputBorder.none,
-                        hintText: "Type something...",
+                        hintText: 'Type something...',
                         hintStyle: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
